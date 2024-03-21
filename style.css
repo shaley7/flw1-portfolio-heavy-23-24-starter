@@ -1,6 +1,3 @@
-/* Add flexbox to the navbars. */
-
-/* Format the size of all images. */
 
 /* Style the font color. */
 
@@ -11,18 +8,19 @@
 /* Adjust the positioning of your page.  */
 
 
+
 * {
     box-sizing: border-box;
   }
   
   body {
-    background-color: #f9d60e;
+    background-color: #6d8a54;
     padding: 20px;
-    font-family: Arial;
+    font-family: Quicksand;
   }
   
   .heading{
-    background-color: #373738;
+    background-color: #abc991;
     color: #efeff2;
     padding: 1em;
   }
@@ -32,36 +30,74 @@
     margin: auto;
   }
   
-  h1 {
+  .h1 {
     font-size: 50px;
     word-break: break-all;
   }
   
   .content {
-    background-color: #272b30;
+    background-color: #abc991;
     margin: 20px;
     padding: 10px;
     color: white;
+    border-radius: 10px;
   }
+.list {
+  background-color: #abc991;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px
+}
+.unit6 {
+  background-color: #abc991;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px
+}
+.unit5 {
+  background-color: #abc991;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px
+}
+.unit4 {
+  background-color: #abc991;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px
+}
+.unit3 {
+  background-color: #77a880;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px
+}
 
 
   .btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: white;
-    cursor: pointer;
-    margin-right: 20px;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #6d8a54;
+  cursor: pointer;
+  margin-right: 20px
+  border-radius: 500px;
   }
   
   nav {
-    background-color: #272b30;
+    background-color: #abc991;
     padding: 10px;
     border-radius: 10px;
+    display: flex
+    justify-content: space-between;
   }
   
   footer {
-    background-color: #272b30;
+    background-color: #abc991;
     padding: 20px;
     color: white;
     text-align: center;
@@ -69,4 +105,19 @@
     border-radius: 10px;
   
   }
-  
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+}
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}

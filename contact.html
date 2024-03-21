@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Update Title</title>
+  <div class"divfixed">
+    <title>Contact Me!</title>
 
     <!-- link CSS stylesheet below -->
     <link rel="stylesheet" href="style.css">
@@ -12,7 +13,7 @@
     <script defer src="script.js"></script>
 
     <!-- imports Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Add navbar to link all html pages. -->
@@ -29,13 +30,40 @@
         <a href="projects.html"><button class="btn">Projects</button></a>
         <a href="contact.html"><button class="btn">Contact</button></a>
      </nav>
+   </nav>
+  <style>
+    nav {
+        display: flex; 
+        justify-content: space-between; 
+        background-color: #abc991;
+        padding: 10px;
+    }
+
+    nav a {
+        color: #a0deb0;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+    </style>
 
     <div class="content">
-        <p>Your Contact Banner</p>
-        <p>Any message you want to put.</p>
+        <p>Reach out!</p>
+        <p>Here's my contact information!
+        <ul>
+          <li><a href="mailto:shaley@intrinsicschools.org"> Gmail!</a> </li>
+          <li><a href="https://github.com/shaley7"> Github!</a></li>
+          <li><a href="https://www.linkedin.com/in/skylar-haley-757057247/"> Linkedin!</a>
+                </li>
+        </ul>
+</p>
     </div>
     <br>
     <br>
+  
 
 
   </body>
@@ -44,4 +72,5 @@
     <footer>
         <p>&copy; Code Nation 2023</p>
     </footer>
+</div>
 </html>
